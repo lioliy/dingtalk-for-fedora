@@ -22,7 +22,7 @@ spectool -gR SPECS/dingtalk-bin.spec
 rpmbuild -ba SPECS/dingtalk-bin.spec
 ```
 
-### mock
+### moc
 
 If you want to build it with mock, you will need to generate a source rpm first and use `mock --rebuild`
 
